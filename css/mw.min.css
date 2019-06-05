@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px) {
+    .categories_projects {
+        display: none;
+    }
+
+    section .row .header_text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .row .comment {
+        margin-right: 0;
+    }
+
+    .row .wan, .twan {
+        position: relative;
+        display: none;
+    }
+
+    .row .two {
+        display: block;
+    }
+
+    #qty p {
+        text-align: center;
+    }
+
+    #clients .col-lg-6 {
+        margin-bottom: 60px;
+    }
+
+    #clients .col-lg-6 .d-flex {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1121px) {
+    footer .wowork img {
+        width: 108px;
+        height: 76px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container-flud {
+        max-width: 1140px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    footer .col-sm-6 {
+        margin-bottom: 61px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    footer .wowork img {
+        width: 108px;
+        height: 76px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    header .col-lg-10 .menu a {
+        margin-left: 30px;
+        margin-right: 0;
+    }
+
+    .menu {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    header .col-lg-10 {
+        display: none;
+    }
+}

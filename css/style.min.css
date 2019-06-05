@@ -1,0 +1,308 @@
+body {
+    background: #323e4a;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+.logo {
+    margin-top: 38px;
+}
+
+.contact_details p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #acb1b7;
+    margin-right: 72px;
+    text-align: right;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.col-lg-10 .menu a {
+    font-size: 10px;
+    font-weight: 700;
+    color: #fdfdff;
+    margin-right: 38px;
+    margin-top: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.col-lg-10 .menu a:hover {
+    color: #fcc000;
+}
+
+.menu {
+    float: right;
+    margin-right: 22px;
+}
+
+nav {
+    margin-bottom: 91px;
+}
+
+.header_text {
+    margin-top: 19px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.header_text strong {
+    color: #fcc000;
+}
+
+.wan {
+    position: absolute;
+    margin-left: -57px;
+    margin-top: 35px;
+    width: 40px;
+    height: 1px;
+    background: #fdfdff;
+}
+
+.categories_projects {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    height: 51px;
+    width: 86px;
+    color: #767d85;
+    padding: 19px 9px;
+    border-bottom: 1px solid #787d81;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.categories_projects:hover {
+    color: #fcc000;
+    border-left: 1px solid #787d81;
+    border-right: 1px solid #787d81;
+    border-top: 1px solid #787d81;
+    border-bottom: 0;
+}
+
+.img_projects  img {
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.img_projects img:hover {
+    
+}
+
+#projects {
+    margin-bottom: 120px;
+}
+
+#qty {
+    margin-bottom: 120px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-top: 1px solid #787d81;
+    border-bottom: 1px solid #787d81;
+    font-weight: 700;
+    font-size: 43px;
+    color: #fcc000;
+}
+
+#qty strong {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#qty strong .hr {
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.twan {
+    position: absolute;
+    margin-top: 35px;
+    width: 40px;
+    height: 1px;
+    background: #fdfdff;
+}
+
+.text p {
+    margin-left: 60px;
+}
+
+.comment {
+    margin-right: 30px;
+    padding: 30px;
+    border: 1px solid #787d81;
+}
+
+.commet_avatar {
+    margin-bottom: 20px;
+}
+
+.commet_avatar i {
+    font-size: 80px;
+    color: #e2e6e9;
+    margin-right: 20px;
+}
+
+.commet_avatar p {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #e2e6e9
+}
+
+.commet_avatar strong {
+    font-weight: 500;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.fa-quote-left {
+    font-size: 24px;
+    color: #8d8d8d;
+}
+
+.comment .row p {
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8d8d8d;
+}
+
+.client_work_prim {
+    padding-top: 17.5px;
+    color: #b7b7b9;
+    font-size: 73px;
+    height: 143px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #787d81;
+    transition: 0.5s;
+}
+
+.client_work_prim:hover {
+    color: #fcc000;
+    border: 1px solid #fcc000;
+}
+
+.client_work .col-md-6 {
+    padding: 0;
+}
+
+.client_work .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#clients {
+    margin-bottom: 120px;
+}
+
+footer {
+    background: #2e3841;
+    padding: 81px 0;
+}
+
+footer .header_text {
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.foot_text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #b7b7b9;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+footer .fab {
+    border: 2px solid #b7b9b8;
+    color: #b7b9b8;
+    font-size: 12px;
+    padding-top: 5px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+footer .fab:hover {
+    border: 2px solid #fcc000;
+    color: #fcc000;
+}
+
+#silka {
+    color: #b7b9b8;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#silka:hover {
+    color: #fcc000;
+}
+
+.wowork img {
+    width: 150px;
+    height: 108px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.ofis {
+    margin-bottom: 10px;
+}
+
+.ofis i {
+    font-size: 15px;
+    color: #fcc000;
+    margin-right: 7px;
+}
+
+.ofis p {
+    color: #b8b7b5;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.two {
+    width: 40px;
+    height: 3px;
+    background: #fcc000;
+    text-align: center;
+    margin-bottom: 60px;
+    display: none;
+}
+
+.container-flud {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bloch img {
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.bloch {
+    padding: 0;
+    text-align: center;
+}
