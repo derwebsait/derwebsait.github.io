@@ -85,3 +85,18 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .row .text p {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    footer .wowork img {
+        width: 80px;
+        height: 48px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+}
