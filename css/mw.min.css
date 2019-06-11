@@ -3,6 +3,29 @@
         display: none;
     }
 
+    #about .col-md-6 img {
+        display: none;
+    }
+
+    #about .row .col-12 img {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .who_we_are p {
+        margin-bottom: 27px;
+    }
+
+    .who_we_text .mw992 {
+        margin-bottom: 30px;
+    }
+
+    #about .row .header_text strong {
+        border-left: 0px;
+        border-bottom: 0px;
+        padding-left: 0;
+    }
+
     section .row .header_text {
         width: 100%;
         text-align: center;
@@ -55,6 +78,10 @@
 }
 
 @media screen and (max-width: 992px) {
+    .who_we_text .mw992 {
+        width: 100%;
+    }
+
     footer .col-sm-6 {
         margin-bottom: 61px;
     }

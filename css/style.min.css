@@ -3,6 +3,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 header {
     margin-bottom: 24px;
 }
@@ -305,4 +309,138 @@ footer .fab:hover {
 .bloch {
     padding: 0;
     text-align: center;
+}
+
+.categorie_name {
+    width: 100%;
+    color: #fdfdff;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+#about_us {
+    margin-bottom: 17px;
+    background: url(../img/about_us-header.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+#link_category {
+    border-bottom: 1px solid #e1e1e1;
+    color: #b1b1b1;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#about {
+    background: #fff;
+}
+
+#about  .text p {
+    color: #2f3841;
+    margin-left: 0;
+}
+
+#about  .text strong {
+    padding-left: 20px;
+    padding-bottom: 12px;
+    border-left: 3px solid #fcc000;
+    border-bottom: 3px solid #fcc000;
+}
+
+#about .commet_avatar i {
+    color: #4e5d72;
+}
+
+#about .commet_avatar p {
+    color: #2f383f;
+}
+
+#about .commet_avatar strong {
+    color: #b7b7b7;
+}
+
+#about .comment .row p {
+    color: #b0b0b0;
+}
+
+#about .fa-quote-left {
+    color: #b0b0b0;
+}
+
+#about .client_work_prim {
+    border: 1px solid #ebebeb;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about .client_work_prim:hover {
+    color: #fcc000;
+    border: 1px solid #fcc000;;
+    transition: 0.5s;
+}
+
+.who_we_are p {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #2f383f;
+}
+
+.who_we_text p {
+    width: 440px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 60px;
+    color: #b1b1b1;
+}
+
+#who-we-are {
+    margin-bottom: 150px;
+}
+
+#who-we-are button {
+    font-size: 12px;
+    font-weight: 700;
+    width: 300px;
+    height: 60px;
+    background: #2e3841;
+    color: #fdfdff;
+    padding-left: 18px;
+    border: none;
+}
+
+#who-we-are button p {
+    padding-top: 18px;
+    margin-top: 2px;
+}
+
+#who-we-are .fas {
+    margin-right: 17px;
+    font-size: 23px;
+    padding-top: 18px;
+}
+
+#who-we-are .fa-arrow-right{
+    width: 60px;
+    margin-top: -3px;
+    padding-top: 18px;
+    margin-left: 222px;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: absolute;
+    float: right;
+    background: #ffc000;
+    height: 60px;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+#about .col-12 img {
+    display: none;
 }
