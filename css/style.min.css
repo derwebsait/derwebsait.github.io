@@ -444,3 +444,75 @@ footer .fab:hover {
 #about .col-12 img {
     display: none;
 }
+
+.services_header p {
+    width: 340px;
+    font-weight: 700;
+    color: #2e3842;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.services_header_right p {
+    width: 350px;
+    font-weight: 700;
+    color: #2e3842;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.services_header_right strong {
+    padding-right: 20px;
+    padding-bottom: 12px;
+    border-right: 3px solid #fcc000;
+    border-bottom: 3px solid #fcc000;
+}
+
+.services_header strong {
+    padding-left: 20px;
+    padding-bottom: 12px;
+    border-left: 3px solid #fcc000;
+    border-bottom: 3px solid #fcc000;
+}
+
+.services_text p {
+    width: 440px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 60px;
+    color: #b0b0b0;
+}
+
+.services_info {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 12px;
+    color: #2e3842;
+}
+
+.services_info p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.services_info strong {
+    font-size: 33px;
+    color: #2e3842;
+}
+
+.services_info .info_strong {
+    color: #fcc000;
+}
+
+.services_info a {
+    color: #fcc000;
+    float: right;
+    font-size: 12px;
+    margin-top: -31px;
+}
+
+.mb80 {
+    margin-bottom: 120px;
+}
