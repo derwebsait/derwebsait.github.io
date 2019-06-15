@@ -118,6 +118,10 @@
         width: 100%;
     }
 
+    form textarea {
+        margin-bottom: 65px;
+    }
+
     .mb80 .mw992 {
         width: 100%;
     }

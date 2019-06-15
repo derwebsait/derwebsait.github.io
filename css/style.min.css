@@ -441,8 +441,18 @@ footer .fab:hover {
     max-width: 100%;
 }
 
+#contact .row img {
+    max-width: 500px;
+}
+
 #about .col-12 img {
     display: none;
+}
+
+#about_services {
+    background: url(../img/services.jpg);
+    background-repeat: none;
+    background-size: cover;
 }
 
 .services_header p {
@@ -515,4 +525,112 @@ footer .fab:hover {
 
 .mb80 {
     margin-bottom: 120px;
+}
+
+#contact {
+    background: url(../img/Contact.png);
+}
+
+#contact_info {
+    margin-bottom: 120px;
+}
+
+.contact_info-header p {
+    font-size: 15px;
+    color: #2e3841;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.contact_ofis {
+    margin-bottom: 16px;
+}
+
+.contact_ofis i {
+    font-size: 15px;
+    color: #fcc000;
+    margin-right: 7px;
+}
+
+.contact_ofis p {
+    color: #b0b0b0;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.info_form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #f4f4f4;
+    margin-top: 50px;
+}
+
+form textarea {
+    transition: 0.5s;
+    color: #b8b8b8;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border: none;
+}
+
+form input {
+    transition: 0.5s;
+    width: 100%;
+    padding: 20px 20px 20px 30px;
+    background: #fff;
+    color: #acb1b7;
+    border: none;
+    margin-bottom: 32.2px;
+    height: 40px;
+}
+
+form button {
+    transition: 0.5s;
+    width: 100%;
+    background: #fcc000;
+    color: #fff;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+}
+
+form button:hover {
+    background: #fff;
+    color: #fcc000
+}
+
+form button i {
+    margin-right: 10px;
+}
+
+form p {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2e3841;
+}
+
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+::-webkit-input-placeholder {color:#b8b8b8;font-size: 12px;}
+::-moz-placeholder          {color:#b8b8b8;font-size: 12px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#b8b8b8;font-size: 12px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#b8b8b8;font-size: 12px;}
+
+#about_object {
+    background: url(../img/object.jpg);
+    background-repeat: none;
+    background-size: cover;
 }
