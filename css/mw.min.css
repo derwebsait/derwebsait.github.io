@@ -3,8 +3,16 @@
         display: none;
     }
 
+    #object .categories_projects {
+        display: block;
+    }
+
     #about .col-md-6 img {
         display: none;
+    }
+
+    #about .col-md-6 .wowork img {
+        display: block;
     }
 
     #about .row .col-12 img {
@@ -151,15 +159,55 @@
     }
 }
 
-@media screen and (max-width: 850px) {
-    header .col-lg-10 {
-        display: none;
+@media screen and (max-width: 695px) {
+    header .col-lg-10 .menu a {
+        margin-left: 14px;
+    }
+
+    header .col-lg-10 .menu {
+        width: 404px;
+        margin-right: 0;
+    }
+
+    header .col-lg-10 .contact_details p {
+        margin-right: 22px;
+    }
+
+    header .col-lg-10 .contact_details {
+        margin-top: 46px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .row .text p {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .logo-img {
+        display: none;
+    }
+    .logo .logo-sm {
+        display: block;
+        margin-left: 22px;
+    }
+    body header .col-lg-10 .menu a {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .row .logo .logo-sm {
+        margin-left: 0;
+    }
+
+    header .col-lg-10 .menu {
+        width: 367px;
+    }
+
+    body header .col-lg-10 .contact_details p {
+        margin-right: 0;
     }
 }
 
