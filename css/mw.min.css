@@ -195,7 +195,7 @@
     body header .col-lg-10 .menu a {
         margin-left: 5px;
     }
-    header .col-lg-10 .menu {
+    header .row .col-lg-10 .menu {
         width: 367px;
         margin-right: 0;
     }
