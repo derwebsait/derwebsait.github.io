@@ -195,6 +195,10 @@
     body header .col-lg-10 .menu a {
         margin-left: 5px;
     }
+    header .col-lg-10 .menu {
+        width: 367px;
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 440px) {
