@@ -366,15 +366,15 @@ footer .fab:hover {
 }
 
 #about .commet_avatar strong {
-    color: #b7b7b7;
+    color: #8d8d8d;
 }
 
 #about .comment .row p {
-    color: #b0b0b0;
+    color: #8d8d8d;
 }
 
 #about .fa-quote-left {
-    color: #b0b0b0;
+    color: #8d8d8d;
 }
 
 #about .client_work_prim {
@@ -401,7 +401,7 @@ footer .fab:hover {
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 60px;
-    color: #b1b1b1;
+    color: #8d8d8d;
 }
 
 #who-we-are {
@@ -496,7 +496,7 @@ footer .fab:hover {
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 60px;
-    color: #b0b0b0;
+    color: #8d8d8d;
 }
 
 .services_info {
@@ -560,7 +560,7 @@ footer .fab:hover {
 }
 
 .contact_ofis p {
-    color: #b0b0b0;
+    color: #8d8d8d;
     font-weight: 500;
     font-size: 10px;
 }
@@ -615,7 +615,7 @@ form button i {
 form p {
     font-size: 10px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 12.5px;
     position: absolute;
     color: #2e3841;
 }
@@ -731,4 +731,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     padding-bottom: 9px;
     border-bottom: 1px solid #e1e1e1;
     width: 100%;
+}
+
+.contact_details strong {
+    font-weight: 500;
 }

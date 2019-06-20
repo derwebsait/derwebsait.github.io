@@ -197,7 +197,6 @@
     }
     header .row .col-lg-10 .menu {
         width: 367px;
-        margin-right: 0;
     }
 }
 
@@ -221,5 +220,27 @@
         height: 48px;
         margin-left: 2px;
         margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .contact_details strong {
+        display: none;
+    }
+ }
+
+@media screen and (max-width: 385px) {
+    .menu_head {
+        display: none;
+    }
+    header .row .col-lg-10 .menu {
+        width: 304px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    footer .wowork img {
+        width: 70px;
+        height: 38px;
     }
 }
